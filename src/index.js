@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 //import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import App from "./App.js";
 import reportWebVitals from "./reportWebVitals";
-import { AuthProvider } from "./context/AuthProvider";
+// import { AuthProvider } from "./context/AuthProvider";
 import { BrowserRouter } from "react-router-dom";
 //import "bootstrap/dist/css/bootstrap.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
@@ -19,11 +19,11 @@ Chart.register(CategoryScale);
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <AuthProvider>
+    {/* <AuthProvider> */}
       <BrowserRouter>
         <App />
       </BrowserRouter>
-    </AuthProvider>
+    {/* </AuthProvider> */}
   </React.StrictMode>
 );
 
