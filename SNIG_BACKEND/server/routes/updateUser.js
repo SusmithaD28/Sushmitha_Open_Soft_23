@@ -25,6 +25,6 @@ const updateUserProfile = asyncHandler(async (req, res) => {
     }
   })
 
-  module.export = {
+  module.exports = {
     updateUserProfile,
 }

@@ -38,6 +38,4 @@ const registerUser = asyncHandler(async (req, res) => {
       });
     });
 
-    module.exports = {
-      registerUser
-  };
+    module.exports = registerUser; 

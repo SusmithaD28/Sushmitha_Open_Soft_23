@@ -25,6 +25,4 @@ const authUser = asyncHandler(async (req, res) => {
     }
   })
 
-  module.export = {
-    authUser
-}
+ module.exports=authUser;
