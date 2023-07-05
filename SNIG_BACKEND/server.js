@@ -60,7 +60,7 @@ app.use(session({
 }));
 
 //load routers
-// const postRoute = require('./server/routes/posts')
+const postRoute = require('./server/routes/posts')
 app.use('/', require('./server/routes/posts'));
 
 app.post('/user/all', function(req, res){
